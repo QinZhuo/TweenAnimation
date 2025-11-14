@@ -7,7 +7,7 @@
 script = ExtResource("1_qy66f")
 metadata/_custom_type_script = "uid://cf7yuu8mfugsu"
 
-[node name="position" type="Node" parent="." node_paths=PackedStringArray("node")]
+[node name="Position" type="Node" parent="." node_paths=PackedStringArray("node")]
 script = ExtResource("2_w08ww")
 node = NodePath("../..")
 property = "position:y"
@@ -16,7 +16,7 @@ transition_type = 9
 from_value = 0.0
 metadata/_custom_type_script = "uid://cqxuuexdumeed"
 
-[node name="roation" type="Node" parent="." node_paths=PackedStringArray("node")]
+[node name="Roation" type="Node" parent="." node_paths=PackedStringArray("node")]
 script = ExtResource("2_w08ww")
 node = NodePath("../..")
 property = ":rotation:y"

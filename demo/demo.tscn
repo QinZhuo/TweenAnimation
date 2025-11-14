@@ -21,17 +21,18 @@ script = ExtResource("1_u10mr")
 script = ExtResource("2_dar0o")
 metadata/_custom_type_script = "uid://cf7yuu8mfugsu"
 
-[node name="_scale" type="Node" parent="Test1/TweenAnimation" node_paths=PackedStringArray("node")]
+[node name="Scale1" type="Node" parent="Test1/TweenAnimation" node_paths=PackedStringArray("node")]
 script = ExtResource("3_j5lb4")
 node = NodePath("../..")
 property = ":scale"
 final_value = Vector3(1.2, 0.85, 1)
 duration = 0.2
 from_value = Vector3(1, 1, 1)
+custom_playback = true
 playback_transition_type = 10
 metadata/_custom_type_script = "uid://cqxuuexdumeed"
 
-[node name="_scale2" type="Node" parent="Test1/TweenAnimation" node_paths=PackedStringArray("node")]
+[node name="Scale2" type="Node" parent="Test1/TweenAnimation" node_paths=PackedStringArray("node")]
 script = ExtResource("3_j5lb4")
 node = NodePath("../..")
 property = ":scale"
@@ -41,17 +42,18 @@ from_value = Vector3(1.2, 0.85, 1)
 playback_transition_type = 10
 metadata/_custom_type_script = "uid://cqxuuexdumeed"
 
-[node name="_scale3" type="Node" parent="Test1/TweenAnimation" node_paths=PackedStringArray("node")]
+[node name="Scale3" type="Node" parent="Test1/TweenAnimation" node_paths=PackedStringArray("node")]
 script = ExtResource("3_j5lb4")
 node = NodePath("../..")
 property = ":scale"
 final_value = Vector3(1.05, 0.95, 1)
 duration = 0.2
 from_value = Vector3(0.9, 1.1, 1)
+custom_playback = true
 playback_transition_type = 10
 metadata/_custom_type_script = "uid://cqxuuexdumeed"
 
-[node name="_scale4" type="Node" parent="Test1/TweenAnimation" node_paths=PackedStringArray("node")]
+[node name="Scale4" type="Node" parent="Test1/TweenAnimation" node_paths=PackedStringArray("node")]
 script = ExtResource("3_j5lb4")
 node = NodePath("../..")
 property = ":scale"
