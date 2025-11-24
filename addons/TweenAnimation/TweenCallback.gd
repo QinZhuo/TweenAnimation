@@ -1,8 +1,8 @@
 @tool
 class_name TweenCallback extends TweenAnimation
 
-signal callback
+signal tween_callback
 
-func create_tweenr(root_tween: Tween, is_play_back: bool = false):
-	root_tween.tween_callback(callback.emit)
-	super.create_tweenr(root_tween, is_play_back)
+func _create_tweenr(root_tween: Tween):
+	root_tween.tween_callback(tween_callback.emit)
+	super._create_tweenr(root_tween)
