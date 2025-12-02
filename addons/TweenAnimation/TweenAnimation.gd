@@ -34,6 +34,12 @@ func playback():
 	_create_tweenr(cur_tween)
 	return cur_tween
 
+func play_tween(not_playback: bool):
+	if not_playback:
+		play()
+	else:
+		playback()
+
 func _create_tweenr(tween: Tween):
 	_create_child_subtween(tween)
 
